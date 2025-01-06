@@ -1,0 +1,603 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 70;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		542221422D24C2DB00C3B10E /* AboutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 542221412D24C2DB00C3B10E /* AboutView.swift */; };
+		5429A9872D24999400058509 /* EditingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5429A9862D24999400058509 /* EditingView.swift */; };
+		5429A9892D249B1C00058509 /* FinishView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5429A9882D249B1C00058509 /* FinishView.swift */; };
+		543B651D2CC1B94A00FBEE36 /* CalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 543B651C2CC1B94A00FBEE36 /* CalendarView.swift */; };
+		543B651F2CC2C7BB00FBEE36 /* TaskIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 543B651E2CC2C7BB00FBEE36 /* TaskIcon.swift */; };
+		543B65212CC2DD1C00FBEE36 /* EditTaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 543B65202CC2DD1C00FBEE36 /* EditTaskView.swift */; };
+		54537FA82CC4111B005319B3 /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54537FA72CC4111B005319B3 /* SplashView.swift */; };
+		54537FAA2CC41432005319B3 /* EBGaramond.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 54537FA92CC41432005319B3 /* EBGaramond.ttf */; };
+		545572AE2D2479B80089B4B4 /* EditEventView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 545572AD2D2479B80089B4B4 /* EditEventView.swift */; };
+		545572B12D248FA40089B4B4 /* TutorialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 545572B02D248FA40089B4B4 /* TutorialView.swift */; };
+		545572B32D2492120089B4B4 /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 545572B22D2492120089B4B4 /* WelcomeView.swift */; };
+		545572B52D2493E50089B4B4 /* GroupsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 545572B42D2493E50089B4B4 /* GroupsView.swift */; };
+		545572B72D24972F0089B4B4 /* AddingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 545572B62D24972F0089B4B4 /* AddingView.swift */; };
+		545572B92D2498660089B4B4 /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 545572B82D2498660089B4B4 /* InfoView.swift */; };
+		547C9FF92CBDA9340069FA17 /* CheckmateApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 547C9FF82CBDA9340069FA17 /* CheckmateApp.swift */; };
+		547C9FFB2CBDA9340069FA17 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 547C9FFA2CBDA9340069FA17 /* ContentView.swift */; };
+		547C9FFD2CBDA9350069FA17 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 547C9FFC2CBDA9350069FA17 /* Assets.xcassets */; };
+		547CA0002CBDA9350069FA17 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 547C9FFF2CBDA9350069FA17 /* Preview Assets.xcassets */; };
+		547CA0022CBDA9350069FA17 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 547CA0012CBDA9350069FA17 /* Persistence.swift */; };
+		547CA0052CBDA9350069FA17 /* Checkmate.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 547CA0032CBDA9350069FA17 /* Checkmate.xcdatamodeld */; };
+		547CA00C2CBDAA2C0069FA17 /* AllListsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 547CA00B2CBDAA2C0069FA17 /* AllListsView.swift */; };
+		547CA0112CBDADE90069FA17 /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 547CA0102CBDADE90069FA17 /* ListView.swift */; };
+		547CA0132CBDB1800069FA17 /* ListIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 547CA0122CBDB1800069FA17 /* ListIcon.swift */; };
+		548F546E2D204F0C0006EDB0 /* EditListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 548F546D2D204F0C0006EDB0 /* EditListView.swift */; };
+		54A724A62CC041D300510EC2 /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54A724A52CC041D300510EC2 /* DataController.swift */; };
+		54A724A82CC067F800510EC2 /* PlusButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54A724A72CC067F800510EC2 /* PlusButton.swift */; };
+		54A724AC2CC06ABB00510EC2 /* EmojiCircle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54A724AB2CC06ABB00510EC2 /* EmojiCircle.swift */; };
+		54A724AE2CC06B6D00510EC2 /* ColorCircle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54A724AD2CC06B6D00510EC2 /* ColorCircle.swift */; };
+		54A724B02CC06CCD00510EC2 /* TextButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54A724AF2CC06CCD00510EC2 /* TextButton.swift */; };
+		54A724B32CC15A7A00510EC2 /* NewTaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54A724B22CC15A7A00510EC2 /* NewTaskView.swift */; };
+		54AF31D62D1F912A00EF8EF7 /* NoteIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54AF31D52D1F912A00EF8EF7 /* NoteIcon.swift */; };
+		54B92A932D21AF700050D59E /* EventIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54B92A922D21AF700050D59E /* EventIcon.swift */; };
+		54B92A952D21B25C0050D59E /* NewEventView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54B92A942D21B25C0050D59E /* NewEventView.swift */; };
+		54CA91952CBF0D8E00327280 /* NewListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54CA91942CBF0D8E00327280 /* NewListView.swift */; };
+		54CA91982CBF4D1900327280 /* MCEmojiPicker in Frameworks */ = {isa = PBXBuildFile; productRef = 54CA91972CBF4D1900327280 /* MCEmojiPicker */; };
+		54CBA4902CC2FC0D00D15F45 /* ParagraphTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54CBA48F2CC2FC0D00D15F45 /* ParagraphTextView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		542221412D24C2DB00C3B10E /* AboutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutView.swift; sourceTree = "<group>"; };
+		5429A9862D24999400058509 /* EditingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditingView.swift; sourceTree = "<group>"; };
+		5429A9882D249B1C00058509 /* FinishView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinishView.swift; sourceTree = "<group>"; };
+		543B651C2CC1B94A00FBEE36 /* CalendarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarView.swift; sourceTree = "<group>"; };
+		543B651E2CC2C7BB00FBEE36 /* TaskIcon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskIcon.swift; sourceTree = "<group>"; };
+		543B65202CC2DD1C00FBEE36 /* EditTaskView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditTaskView.swift; sourceTree = "<group>"; };
+		54537FA72CC4111B005319B3 /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
+		54537FA92CC41432005319B3 /* EBGaramond.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = EBGaramond.ttf; sourceTree = "<group>"; };
+		545572AD2D2479B80089B4B4 /* EditEventView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditEventView.swift; sourceTree = "<group>"; };
+		545572B02D248FA40089B4B4 /* TutorialView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutorialView.swift; sourceTree = "<group>"; };
+		545572B22D2492120089B4B4 /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
+		545572B42D2493E50089B4B4 /* GroupsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupsView.swift; sourceTree = "<group>"; };
+		545572B62D24972F0089B4B4 /* AddingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddingView.swift; sourceTree = "<group>"; };
+		545572B82D2498660089B4B4 /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
+		547C9FF52CBDA9340069FA17 /* Checkmate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Checkmate.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		547C9FF82CBDA9340069FA17 /* CheckmateApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckmateApp.swift; sourceTree = "<group>"; };
+		547C9FFA2CBDA9340069FA17 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		547C9FFC2CBDA9350069FA17 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		547C9FFF2CBDA9350069FA17 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		547CA0012CBDA9350069FA17 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		547CA0042CBDA9350069FA17 /* Checkmate.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Checkmate.xcdatamodel; sourceTree = "<group>"; };
+		547CA00B2CBDAA2C0069FA17 /* AllListsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllListsView.swift; sourceTree = "<group>"; };
+		547CA0102CBDADE90069FA17 /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
+		547CA0122CBDB1800069FA17 /* ListIcon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListIcon.swift; sourceTree = "<group>"; };
+		548F546D2D204F0C0006EDB0 /* EditListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditListView.swift; sourceTree = "<group>"; };
+		54A724A52CC041D300510EC2 /* DataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataController.swift; sourceTree = "<group>"; };
+		54A724A72CC067F800510EC2 /* PlusButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlusButton.swift; sourceTree = "<group>"; };
+		54A724AB2CC06ABB00510EC2 /* EmojiCircle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiCircle.swift; sourceTree = "<group>"; };
+		54A724AD2CC06B6D00510EC2 /* ColorCircle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorCircle.swift; sourceTree = "<group>"; };
+		54A724AF2CC06CCD00510EC2 /* TextButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextButton.swift; sourceTree = "<group>"; };
+		54A724B22CC15A7A00510EC2 /* NewTaskView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewTaskView.swift; sourceTree = "<group>"; };
+		54AF31D52D1F912A00EF8EF7 /* NoteIcon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteIcon.swift; sourceTree = "<group>"; };
+		54B92A922D21AF700050D59E /* EventIcon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventIcon.swift; sourceTree = "<group>"; };
+		54B92A942D21B25C0050D59E /* NewEventView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewEventView.swift; sourceTree = "<group>"; };
+		54CA91942CBF0D8E00327280 /* NewListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewListView.swift; sourceTree = "<group>"; };
+		54CBA48F2CC2FC0D00D15F45 /* ParagraphTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParagraphTextView.swift; sourceTree = "<group>"; };
+		54D99CE82CC40F9000D5DC55 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		54AF31D12D1F8DE700EF8EF7 /* Lists */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = Lists; sourceTree = "<group>"; };
+		54AF31D22D1F8DED00EF8EF7 /* Notes */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = Notes; sourceTree = "<group>"; };
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		547C9FF22CBDA9340069FA17 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54CA91982CBF4D1900327280 /* MCEmojiPicker in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		543B65182CC1B8EC00FBEE36 /* Notebook */ = {
+			isa = PBXGroup;
+			children = (
+				54AF31D12D1F8DE700EF8EF7 /* Lists */,
+				54AF31D22D1F8DED00EF8EF7 /* Notes */,
+			);
+			path = Notebook;
+			sourceTree = "<group>";
+		};
+		543B65192CC1B8FC00FBEE36 /* Calendar */ = {
+			isa = PBXGroup;
+			children = (
+				543B651C2CC1B94A00FBEE36 /* CalendarView.swift */,
+				54B92A942D21B25C0050D59E /* NewEventView.swift */,
+				545572AD2D2479B80089B4B4 /* EditEventView.swift */,
+			);
+			path = Calendar;
+			sourceTree = "<group>";
+		};
+		545572AF2D248F870089B4B4 /* Tutorial */ = {
+			isa = PBXGroup;
+			children = (
+				545572B02D248FA40089B4B4 /* TutorialView.swift */,
+				545572B22D2492120089B4B4 /* WelcomeView.swift */,
+				545572B42D2493E50089B4B4 /* GroupsView.swift */,
+				545572B62D24972F0089B4B4 /* AddingView.swift */,
+				545572B82D2498660089B4B4 /* InfoView.swift */,
+				5429A9862D24999400058509 /* EditingView.swift */,
+				5429A9882D249B1C00058509 /* FinishView.swift */,
+			);
+			path = Tutorial;
+			sourceTree = "<group>";
+		};
+		547C9FEC2CBDA9340069FA17 = {
+			isa = PBXGroup;
+			children = (
+				547C9FF72CBDA9340069FA17 /* Checkmate */,
+				547C9FF62CBDA9340069FA17 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		547C9FF62CBDA9340069FA17 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				547C9FF52CBDA9340069FA17 /* Checkmate.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		547C9FF72CBDA9340069FA17 /* Checkmate */ = {
+			isa = PBXGroup;
+			children = (
+				54D99CE82CC40F9000D5DC55 /* Info.plist */,
+				547C9FF82CBDA9340069FA17 /* CheckmateApp.swift */,
+				547C9FFA2CBDA9340069FA17 /* ContentView.swift */,
+				54537FA72CC4111B005319B3 /* SplashView.swift */,
+				545572AF2D248F870089B4B4 /* Tutorial */,
+				54A724AA2CC0693E00510EC2 /* CoreData */,
+				54A724A92CC068B100510EC2 /* Assets */,
+				547CA00F2CBDAB3A0069FA17 /* To Do */,
+				543B65182CC1B8EC00FBEE36 /* Notebook */,
+				543B65192CC1B8FC00FBEE36 /* Calendar */,
+				547C9FFE2CBDA9350069FA17 /* Preview Content */,
+			);
+			path = Checkmate;
+			sourceTree = "<group>";
+		};
+		547C9FFE2CBDA9350069FA17 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				547C9FFF2CBDA9350069FA17 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		547CA00F2CBDAB3A0069FA17 /* To Do */ = {
+			isa = PBXGroup;
+			children = (
+				542221412D24C2DB00C3B10E /* AboutView.swift */,
+				54924CB32CBF014A00DC1EB8 /* Tasks */,
+				54924CB22CBF013300DC1EB8 /* Lists */,
+			);
+			path = "To Do";
+			sourceTree = "<group>";
+		};
+		54924CB22CBF013300DC1EB8 /* Lists */ = {
+			isa = PBXGroup;
+			children = (
+				547CA00B2CBDAA2C0069FA17 /* AllListsView.swift */,
+				54CA91942CBF0D8E00327280 /* NewListView.swift */,
+				547CA0102CBDADE90069FA17 /* ListView.swift */,
+				548F546D2D204F0C0006EDB0 /* EditListView.swift */,
+			);
+			path = Lists;
+			sourceTree = "<group>";
+		};
+		54924CB32CBF014A00DC1EB8 /* Tasks */ = {
+			isa = PBXGroup;
+			children = (
+				54A724B22CC15A7A00510EC2 /* NewTaskView.swift */,
+				543B65202CC2DD1C00FBEE36 /* EditTaskView.swift */,
+			);
+			path = Tasks;
+			sourceTree = "<group>";
+		};
+		54A724A92CC068B100510EC2 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				547C9FFC2CBDA9350069FA17 /* Assets.xcassets */,
+				54537FA92CC41432005319B3 /* EBGaramond.ttf */,
+				54A724B12CC06EC300510EC2 /* Buttons */,
+				547CA0122CBDB1800069FA17 /* ListIcon.swift */,
+				54AF31D52D1F912A00EF8EF7 /* NoteIcon.swift */,
+				54B92A922D21AF700050D59E /* EventIcon.swift */,
+				543B651E2CC2C7BB00FBEE36 /* TaskIcon.swift */,
+				54A724AB2CC06ABB00510EC2 /* EmojiCircle.swift */,
+				54A724AD2CC06B6D00510EC2 /* ColorCircle.swift */,
+				54CBA48F2CC2FC0D00D15F45 /* ParagraphTextView.swift */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		54A724AA2CC0693E00510EC2 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				547CA0032CBDA9350069FA17 /* Checkmate.xcdatamodeld */,
+				54A724A52CC041D300510EC2 /* DataController.swift */,
+				547CA0012CBDA9350069FA17 /* Persistence.swift */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
+		54A724B12CC06EC300510EC2 /* Buttons */ = {
+			isa = PBXGroup;
+			children = (
+				54A724A72CC067F800510EC2 /* PlusButton.swift */,
+				54A724AF2CC06CCD00510EC2 /* TextButton.swift */,
+			);
+			path = Buttons;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		547C9FF42CBDA9340069FA17 /* Checkmate */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 547CA0082CBDA9350069FA17 /* Build configuration list for PBXNativeTarget "Checkmate" */;
+			buildPhases = (
+				547C9FF12CBDA9340069FA17 /* Sources */,
+				547C9FF22CBDA9340069FA17 /* Frameworks */,
+				547C9FF32CBDA9340069FA17 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				54AF31D12D1F8DE700EF8EF7 /* Lists */,
+				54AF31D22D1F8DED00EF8EF7 /* Notes */,
+			);
+			name = Checkmate;
+			productName = Checkmate;
+			productReference = 547C9FF52CBDA9340069FA17 /* Checkmate.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		547C9FED2CBDA9340069FA17 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					547C9FF42CBDA9340069FA17 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = 547C9FF02CBDA9340069FA17 /* Build configuration list for PBXProject "Checkmate" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 547C9FEC2CBDA9340069FA17;
+			packageReferences = (
+				54CA91962CBF4D1900327280 /* XCRemoteSwiftPackageReference "MCEmojiPicker" */,
+			);
+			productRefGroup = 547C9FF62CBDA9340069FA17 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				547C9FF42CBDA9340069FA17 /* Checkmate */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		547C9FF32CBDA9340069FA17 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				547CA0002CBDA9350069FA17 /* Preview Assets.xcassets in Resources */,
+				547C9FFD2CBDA9350069FA17 /* Assets.xcassets in Resources */,
+				54537FAA2CC41432005319B3 /* EBGaramond.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		547C9FF12CBDA9340069FA17 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54A724AE2CC06B6D00510EC2 /* ColorCircle.swift in Sources */,
+				54CBA4902CC2FC0D00D15F45 /* ParagraphTextView.swift in Sources */,
+				54A724A82CC067F800510EC2 /* PlusButton.swift in Sources */,
+				54A724B02CC06CCD00510EC2 /* TextButton.swift in Sources */,
+				54AF31D62D1F912A00EF8EF7 /* NoteIcon.swift in Sources */,
+				545572B32D2492120089B4B4 /* WelcomeView.swift in Sources */,
+				545572B52D2493E50089B4B4 /* GroupsView.swift in Sources */,
+				5429A9872D24999400058509 /* EditingView.swift in Sources */,
+				545572B12D248FA40089B4B4 /* TutorialView.swift in Sources */,
+				543B651D2CC1B94A00FBEE36 /* CalendarView.swift in Sources */,
+				547CA0022CBDA9350069FA17 /* Persistence.swift in Sources */,
+				54B92A932D21AF700050D59E /* EventIcon.swift in Sources */,
+				547C9FFB2CBDA9340069FA17 /* ContentView.swift in Sources */,
+				547C9FF92CBDA9340069FA17 /* CheckmateApp.swift in Sources */,
+				545572B92D2498660089B4B4 /* InfoView.swift in Sources */,
+				547CA0112CBDADE90069FA17 /* ListView.swift in Sources */,
+				545572B72D24972F0089B4B4 /* AddingView.swift in Sources */,
+				54CA91952CBF0D8E00327280 /* NewListView.swift in Sources */,
+				543B65212CC2DD1C00FBEE36 /* EditTaskView.swift in Sources */,
+				548F546E2D204F0C0006EDB0 /* EditListView.swift in Sources */,
+				54A724A62CC041D300510EC2 /* DataController.swift in Sources */,
+				54B92A952D21B25C0050D59E /* NewEventView.swift in Sources */,
+				542221422D24C2DB00C3B10E /* AboutView.swift in Sources */,
+				547CA0132CBDB1800069FA17 /* ListIcon.swift in Sources */,
+				54A724B32CC15A7A00510EC2 /* NewTaskView.swift in Sources */,
+				545572AE2D2479B80089B4B4 /* EditEventView.swift in Sources */,
+				547CA0052CBDA9350069FA17 /* Checkmate.xcdatamodeld in Sources */,
+				543B651F2CC2C7BB00FBEE36 /* TaskIcon.swift in Sources */,
+				54537FA82CC4111B005319B3 /* SplashView.swift in Sources */,
+				54A724AC2CC06ABB00510EC2 /* EmojiCircle.swift in Sources */,
+				547CA00C2CBDAA2C0069FA17 /* AllListsView.swift in Sources */,
+				5429A9892D249B1C00058509 /* FinishView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		547CA0062CBDA9350069FA17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		547CA0072CBDA9350069FA17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		547CA0092CBDA9350069FA17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Checkmate/Preview Content\"";
+				DEVELOPMENT_TEAM = SK6935LNN8;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Checkmate/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Checkmate;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = tannergeorge.Checkmate;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		547CA00A2CBDA9350069FA17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Checkmate/Preview Content\"";
+				DEVELOPMENT_TEAM = SK6935LNN8;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Checkmate/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Checkmate;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = tannergeorge.Checkmate;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		547C9FF02CBDA9340069FA17 /* Build configuration list for PBXProject "Checkmate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				547CA0062CBDA9350069FA17 /* Debug */,
+				547CA0072CBDA9350069FA17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		547CA0082CBDA9350069FA17 /* Build configuration list for PBXNativeTarget "Checkmate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				547CA0092CBDA9350069FA17 /* Debug */,
+				547CA00A2CBDA9350069FA17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		54CA91962CBF4D1900327280 /* XCRemoteSwiftPackageReference "MCEmojiPicker" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/izyumkin/MCEmojiPicker";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.2.3;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		54CA91972CBF4D1900327280 /* MCEmojiPicker */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 54CA91962CBF4D1900327280 /* XCRemoteSwiftPackageReference "MCEmojiPicker" */;
+			productName = MCEmojiPicker;
+		};
+/* End XCSwiftPackageProductDependency section */
+
+/* Begin XCVersionGroup section */
+		547CA0032CBDA9350069FA17 /* Checkmate.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				547CA0042CBDA9350069FA17 /* Checkmate.xcdatamodel */,
+			);
+			currentVersion = 547CA0042CBDA9350069FA17 /* Checkmate.xcdatamodel */;
+			path = Checkmate.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 547C9FED2CBDA9340069FA17 /* Project object */;
+}
